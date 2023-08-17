@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(228, 155, 212, 0.242);
+}
+label {
+    background-color: rgb(120, 109, 85);
+}
+.sss {
+    color: white;
+}
+.sll {
+    color: bisque;
+}
+h4 {
+    color: cornsilk;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+    color: rgb(186, 79, 43);
+}
+img {
+    height: 300px;
+    width: 1400px;
+    border-radius: 60px;
+    object-fit: cover;
+   }
+
+p {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: rgb(195, 139, 139);
+   }
+div {
+    background-image: url(images/desklaptop.jpg) ;
+    background-size: cover;
+}
+footer {
+    text-align: center;
+}
+
+
+

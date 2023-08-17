@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(236, 210, 176);
+    font-size: 14px;
+    font-family: fantasy;
+    line-height: 1.566;
+    color: rgb(147, 85, 23);
+
+}
+
+
+
+
+/* navbar */
+ul,li {
+    list-style: none;
+    padding: 20px;
+    display:inline-block;
+}
+.Menu {
+    background-color: rgb(232, 151, 122);;
+    padding: 0px 0px;
+    text-align: center ;
+    position:fixed;
+    top:0px;
+    left: 00px;
+    right: 0px;
+
+
+
+}
+.link {
+   padding: 30px 24px ;
+   font-size: 14px;
+   color: rgb(72, 60, 60);
+   text-decoration: overline;
+
+
+}
+.link:hover {
+    background-color: rgb(219, 76, 76);
+    font-size: 30px;
+    color: rgb(244, 240, 246);
+    font-family: sans-serif;
+}
+.image
+    {
+        background-image: url(../webDEV/images/desklaptop.jpg);
+        padding: 120px;
+        background-size: cover;
+        height: 400;
+        top: 150px;
+    }
+.text {
+    position: relative;
+    top: 200px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(39, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 135, 24) 0px 7px 29px 0px;
+   }
+
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(34, 84%, 47%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 129, 24) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+.intro {
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration-line: overline underline;
+    text-decoration-color: darkgoldenrod;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 127, 80, 0.41);
+}
+
+
+
+
+.text1 {
+    margin: 50px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+
+
+
+.image1 {
+    flex: 2;
+    padding-left: 10px;
+}
+
+
+
+.image1 img {
+    width: 400px;
+    height: 1700px;
+}
+
+
+
+.responsive {
+      padding: 0px 6px;
+      float: left;
+      width: 150px;
+}
+
+
+
+div.gallery {
+    border : 1px  chocolate;
+}
+
+
+
+.gallery :hover
+{
+    border:5px solid rgb(235, 122, 29);
+
+
+}
+
+
+
+.gallery img {
+    width: 100px;
+
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.describtion {
+            padding: 25px;
+            text-align: center;
+            background-color: aliceblue;
+            margin: 0px;
+}
+.h22 {
+    font-size: 120px;
+    text-decoration:overline;
+    text-decoration-color: darksalmon;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
