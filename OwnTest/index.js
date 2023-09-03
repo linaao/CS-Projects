@@ -1,5 +1,3 @@
-//document.getElementById("count-el").innerText = 5
+let count = 0;
 
-let myAge = 20
-
-console.log(myAge);
+console.log(count);
