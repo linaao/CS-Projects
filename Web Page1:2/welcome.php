@@ -14,6 +14,17 @@ if ( $connect -> connect_error) {
 }
 echo "connection success <br>";
 
+// creat database
+
+$sql ="create database Jumia";
+if( $connect -> query($sql) === true ) 
+{
+    echo "Database created successfully";
+}
+else {
+    echo "error creating database" . $connect -> error ;
+}
+
 
 
 
