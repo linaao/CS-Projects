@@ -1,4 +1,6 @@
 <?php
+
+
 // creat connection
 $admin = "root";
 $nlocal = "localhost";
