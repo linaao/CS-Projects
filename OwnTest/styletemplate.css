@@ -1,11 +1,39 @@
 body {
     font-family: "Open Sans", sans-serif;
     }
-
-
-
-
-
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #6B705C;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #A5A58D;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+    }
+    
 .top-content {
     padding: 15px 0;
     border-bottom: 1px solid #E0E0E0;
@@ -44,7 +72,7 @@ body {
     }
 
     /* - Search Form hover Effects
-------------------------------------------------------------- */
+------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #header-wrap .action-menu {
     display: inline-block;
     align-items: baseline;
@@ -60,7 +88,7 @@ body {
   }
   
   .action-menu .search-bar {
-    overflow: hidden;
+    overflow:hidden;
   }
   
   .action-menu .search-bar,
