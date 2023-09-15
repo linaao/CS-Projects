@@ -6,6 +6,7 @@
     <meta name="description" content="Discover and buy books across genres on our online bookstore. Explore featured books, get personalized recommendations, and enjoy a seamless shopping experience.">
     <meta name="keywords" content="books bookstore book lover book recommendations">
     <link rel="stylesheet" href="styletemplate.css">
+    <link rel="stylesheet" href="stylegenral.css">
     <link rel="shortcut icon" href="../images/open-book128.png" type="image/png">
     <script src="index.js"></script>
     <title>𝑰𝒏𝒌 & 𝑷𝒂𝒈𝒆 </title>
@@ -39,7 +40,7 @@
 							<a href="#" class="cart for-buy"><i class="icon icon-clipboard"></i><span>Cart:(0
 									$)</span></a>
 
-							<div class="action-menu">
+							<!-- <div class="action-menu">
 
 								<div class="search-bar">
 									<a href="#" class="search-button search-toggle" data-selector="#header-wrap">
@@ -50,7 +51,7 @@
 											type="search">
 									</form>
 								</div>
-							</div>
+							</div> -->
 
 						</div><!--top-right-->
 					</div>
@@ -58,58 +59,70 @@
 				</div>
 			</div>
 		</div> 
+
+        <!-- ================== Header here ======================================================================================= -->
+
+
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo">
                 <!-- <h1><a href="index0.html">𝑰𝒏𝒌 & 𝑷𝒂𝒈𝒆</a></h1> -->
                 <a href="index0.html"><img src="../images/open-book64.png" alt="open-book" class="img-fluid"></a>
-            </div>
-        
-            <nav id="navbar" class="navbar">
+            
+    <!-- ===================== navbar section ============================================================================================================= -->
+            
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a class="active" href="index0.html">Home</a></li>
+            <li><a href="abouttest.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown"><a href="#"><span>Genres</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li>
+                    <a href="categories.html"><span>Non-Fiction</span></a>
                 <ul>
-                    <li><a class="active" href="index0.html">Home</a></li>
-                    <li><a href="abouttest.html">About</a></li>
-                    <li class="dropdown"><a href="#"><span>Genres</span><i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                        <li><a href="categories.html"><span>Non-Fiction</span></a>
-                        <ul>
-                            <li><a href="#">Self-help</a></li>
-                            <li><a href="#">Personal-Development</a></li>
-                            <li><a href="#">Health</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Investing</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="categories.html">Romance</a>
-                        <ul>
-                            <li><a href="#">Historical Romance</a></li>
-                            <li><a href="#">Fiction Romance </a></li>
-                            <li><a href="#">Drama </a></li>
-                        </ul>
-                        </li>
-                        <li><a href="categories.html">Horror</a>
+                    <li><a href="#">Self-help</a></li>
+                    <li><a href="#">Personal-Development</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Investing</a></li>
+                </ul>
+                </li>
+                
+                <li>
+                    <a href="categories.html">Romance</a>
+                    <ul>
+                        <li><a href="#">Historical Romance</a></li>
+                        <li><a href="#">Fiction Romance </a></li>
+                        <li><a href="#">Drama </a></li>
+                    </ul>
+                </li>
+                        <li>
+                            <a href="categories.html">Horror</a>
                         <ul>
                             <li><a href="#">Thriller</a></li>
                             <li><a href="#">Psychological</a></li>
                             <li><a href="#">Mystery</a></li>
                         </ul>
                         </li>
-                        <li><a href="categories.html">Science-Fiction</a>
+                        <li>
+                            <a href="categories.html">Science-Fiction</a>
                         <ul>
                             <li><a href="#">Paranormal</a></li>
                             <li><a href="#">Space </a></li>
                         </ul>
                         </li>
-                        <li><a href="categories.html">Fantasy</a>
+                        <li>
+                            <a href="categories.html">Fantasy</a>
                         <ul>
                             <li><a href="#">Magic</a></li>
                             <li><a href="#">Adventure</a></li>
                         </ul>
                         </li>
-                    <li><a href="categories.html">Computing & Internet </a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <li><a href="categories.html">Computing & Internet </a></li>
                 </ul>  <i class="bi bi-list mobile-nav-toggle"></i> 
-            </nav>
+    </nav> 
+</div>        <!-- ================= end of NAVBAR ====================== -->  
         </div>        
     </header>
 <!-- =========the end of the header here ================================================================ -->
